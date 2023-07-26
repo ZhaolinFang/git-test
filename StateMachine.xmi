@@ -4,7 +4,7 @@ xmlns:xmi="http://www.omg.org/XMI"
 xmlns:statemachine="http://nl.vu.cs.bumble/statemachine" 
 xsi:schemaLocation= "http://nl.vu.cs.bumble/statemachine statemachine.ecore" 
 name="server">
-  <input name="Goo"/>
+  <input name="Go"/>
   <input name="Wait"/>
   <input name="Stop"/>
   <transition description="fromRedtoYellow" input="//@input.1" from="//@states.0" to="//@states.1"/>
